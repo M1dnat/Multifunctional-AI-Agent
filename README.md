@@ -1,6 +1,6 @@
-# 🧠 多功能智能助手
+# 🧠 多功能智能助手 (Multifunctional AI Agent)
 
-基于 LangChain 和 Gradio 构建的智能对话助手，支持天气查询、数学计算、时间查询、货币转换、产品搜索等多种功能。
+基于 LangChain 和 Gradio 构建的智能对话助手，支持天气查询、数学计算、时间查询、货币转换、产品搜索等多种实用功能。
 
 ## ✨ 功能特性
 
@@ -21,9 +21,10 @@
 
 ### 安装步骤
 
-1. 克隆仓库
-git clone https://github.com/yourusername/smart-assistant.git
-cd smart-assistant
+1. **克隆仓库**
+```bash
+git clone https://github.com/M1dnat/Multifunctional-AI-Agent.git
+cd Multifunctional-AI-Agent
 
 2. 安装依赖
 pip install gradio langchain langchain-openai python-dotenv
