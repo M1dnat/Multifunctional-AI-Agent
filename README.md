@@ -22,21 +22,32 @@
 ### 安装步骤
 
 1. **克隆仓库**
-```bash
+
 git clone https://github.com/M1dnat/Multifunctional-AI-Agent.git
 cd Multifunctional-AI-Agent
 
-2. 安装依赖
+2. **安装依赖**
+
 pip install gradio langchain langchain-openai python-dotenv
 
-3. 配置 API Key
+3. **配置 API Key**
+
 echo "API_KEY=your_api_key_here" > .env
 
-4. 运行应用
-python app.py
+4. **运行应用**
 
-5. 访问界面
-浏览器打开 http://localhost:7860
+python 多功能智能助手网页端.py
+
+5. **访问界面**
+
+打开浏览器访问：http://localhost:7860
+
+## 📁 项目结构
+
+Multifunctional-AI-Agent/
+├── 多功能智能助手网页端.py   # 主程序文件
+├── .env                      # API配置文件（需自行创建）
+└── README.md                 # 项目说明
 
 ## 📦 依赖项
 
@@ -91,18 +102,10 @@ demo.launch(share=True)
 用户: 搜索手机
 助手: 📱 iPhone 15 ¥5999、小米14 ¥3999、华为Mate60 ¥6999
 
-## 📁 项目结构
+## 🤝 贡献
 
-smart-assistant/
-├── app.py
-├── .env
-├── requirements.txt
-└── README.md
+欢迎提交 Issue 和 Pull Request
 
 ## 📄 许可证
 
 MIT License
-
-## 🤝 贡献
-
-欢迎提交 Issue 和 Pull Request
